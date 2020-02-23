@@ -52,5 +52,16 @@ module.exports = {
         analyzerMode: 'static',
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Frontend Masters Gatsby Workshop',
+        short_name: 'FEM Gatsby',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#663399',
+        display: 'minimal-ui',
+      },
+    },
   ],
 };
